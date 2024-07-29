@@ -4,9 +4,11 @@ import { AnalysisPage } from './pages/analysis.js';
 
 export const Routes = () => {
     return(
-        <Router>
-            
-        </Router>
+        <Routes>
+        <Route path="/" element={<VizPage />}>
+          <Route path="/analysis" element={<AnalysisPage />} />
+        </Route>
+      </Routes>
     );
 }
 
