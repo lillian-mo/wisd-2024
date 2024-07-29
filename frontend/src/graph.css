@@ -1,0 +1,22 @@
+/* src/Graph.css */
+.mygraph {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #45a049;
+}

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import Graph from './Graph';
+import PlotlyGraph from "./PlotlyGraph"
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>React Graphing App</h1>
       </header>
+      <main>
+        <Graph />
+        <PlotlyGraph />
+      </main>
     </div>
   );
 }
