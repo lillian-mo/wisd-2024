@@ -80,7 +80,6 @@ bat_df.to_csv('wtf.csv')
 
 
 
-
 '''
 # sample data points
 x = np.array([1, 2, 3, 4, 5, 6, 7, 8])
